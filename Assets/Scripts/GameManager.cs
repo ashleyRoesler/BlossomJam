@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MainMenuController : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public void QuitGame() {
 
