@@ -15,7 +15,16 @@ public class GameManager : MonoBehaviour
 
         // to do: make player able to load to specific scene... how??? Page manager? page event?
 
+        // to do: loading screen
+
         SceneManager.LoadScene(GameSceneName);
+    }
+
+    public void GoToMainMenu() {
+
+        // to do: loading screen
+
+        SceneManager.LoadScene(MainMenuSceneName);
     }
 
     public void QuitGame() {
