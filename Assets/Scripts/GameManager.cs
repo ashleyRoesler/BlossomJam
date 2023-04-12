@@ -27,6 +27,13 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(MainMenuSceneName);
     }
 
+    public void EndGame() {
+
+        // to do: loading screen
+
+        SceneManager.LoadScene(EndSceneName);
+    }
+
     public void QuitGame() {
 
         // to do: make sure to save which pages the player has seen
