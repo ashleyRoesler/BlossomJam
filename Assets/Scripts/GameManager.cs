@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public string MainMenuSceneName;
     public string GameSceneName;
     public string EndSceneName;
+
+    public GameObject LoadingScreenCanvas;
+    public Image LoadingScreen;
 
     public void Awake() {
         DontDestroyOnLoad(gameObject);
@@ -15,23 +20,29 @@ public class GameManager : MonoBehaviour
 
         // to do: make player able to load to specific scene... how??? Page manager? page event?
 
-        // to do: loading screen
+        // to do: show instructions on how to play
 
+        StartCoroutine(LoadingScreen_Coroutine());
         SceneManager.LoadScene(GameSceneName);
     }
 
     public void GoToMainMenu() {
-
-        // to do: loading screen
-
+        StartCoroutine(LoadingScreen_Coroutine());
         SceneManager.LoadScene(MainMenuSceneName);
     }
 
     public void EndGame() {
-
-        // to do: loading screen
-
+        StartCoroutine(LoadingScreen_Coroutine());
         SceneManager.LoadScene(EndSceneName);
+    }
+
+    private IEnumerator LoadingScreen_Coroutine() {
+
+        LoadingScreenCanvas.SetActive(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        LoadingScreenCanvas.SetActive(false);
     }
 
     public void QuitGame() {
