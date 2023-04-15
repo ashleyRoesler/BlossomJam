@@ -9,8 +9,12 @@ public class GameManager : MonoBehaviour
     public string GameSceneName;
     public string EndSceneName;
 
+    [Space]
     public GameObject LoadingScreenCanvas;
     public Image LoadingScreen;
+
+    [Space]
+    public float LoadTime = 1f;
 
     public void Awake() {
         DontDestroyOnLoad(gameObject);
@@ -22,25 +26,41 @@ public class GameManager : MonoBehaviour
 
         // to do: show instructions on how to play
 
-        StartCoroutine(LoadingScreen_Coroutine());
-        SceneManager.LoadScene(GameSceneName);
+        StartCoroutine(LoadScene_Coroutine(GameSceneName));
     }
 
     public void GoToMainMenu() {
-        StartCoroutine(LoadingScreen_Coroutine());
-        SceneManager.LoadScene(MainMenuSceneName);
+        StartCoroutine(LoadScene_Coroutine(MainMenuSceneName));
     }
 
     public void EndGame() {
-        StartCoroutine(LoadingScreen_Coroutine());
-        SceneManager.LoadScene(EndSceneName);
+        StartCoroutine(LoadScene_Coroutine(EndSceneName));
     }
 
-    private IEnumerator LoadingScreen_Coroutine() {
+    private IEnumerator LoadScene_Coroutine(string scene) {
 
         LoadingScreenCanvas.SetActive(true);
 
-        yield return new WaitForSeconds(0.5f);
+        Color c = LoadingScreen.color;
+
+        // fade in loading screen
+        for (float alpha = 0f; alpha <= 1f; alpha += 0.2f) {
+            c.a = alpha;
+            LoadingScreen.color = c;
+            yield return new WaitForSeconds(0.02f);
+        }
+
+        // load scene
+        SceneManager.LoadScene(scene);
+
+        yield return new WaitForSeconds(LoadTime);
+
+        // fade out loading screen
+        for (float alpha = 1f; alpha >= 0f; alpha -= 0.2f) {
+            c.a = alpha;
+            LoadingScreen.color = c;
+            yield return new WaitForSeconds(0.02f);
+        }
 
         LoadingScreenCanvas.SetActive(false);
     }
