@@ -79,31 +79,8 @@ public class GameManager : MonoBehaviour
     }
 
     private IEnumerator LoadScene_Coroutine(string scene) {
-
-        LoadingScreenCanvas.SetActive(true);
-
-        Color c = LoadingScreen.color;
-
-        // fade in loading screen
-        for (float alpha = 0f; alpha <= 1f; alpha += 0.2f) {
-            c.a = alpha;
-            LoadingScreen.color = c;
-            yield return new WaitForSeconds(0.02f);
-        }
-
-        // load scene
-        SceneManager.LoadScene(scene);
-
-        yield return new WaitForSeconds(LoadTime);
-
-        // fade out loading screen
-        for (float alpha = 1f; alpha >= 0f; alpha -= 0.2f) {
-            c.a = alpha;
-            LoadingScreen.color = c;
-            yield return new WaitForSeconds(0.02f);
-        }
-
-        LoadingScreenCanvas.SetActive(false);
+        yield return LoadIn_Coroutine();
+        yield return LoadOut_Coroutine(scene);
     }
 
     public void QuitGame() {
