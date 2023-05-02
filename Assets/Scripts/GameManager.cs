@@ -12,21 +12,26 @@ public class GameManager : MonoBehaviour
     [Space]
     public GameObject LoadingScreenCanvas;
     public Image LoadingScreen;
+    public GameObject HowToPlay;
+    public Button ContinueButton;
 
     [Space]
     public float LoadTime = 1f;
 
     public void Awake() {
         DontDestroyOnLoad(gameObject);
+
+        ContinueButton.onClick.AddListener(() => {
+            HowToPlay.SetActive(false);
+            StartCoroutine(LoadOut_Coroutine(GameSceneName));
+        });
     }
 
     public void PlayGame(int pageIndex = 0) {
 
         // to do: make player able to load to specific scene... how??? Page manager? page event?
 
-        // to do: show instructions on how to play
-
-        StartCoroutine(LoadScene_Coroutine(GameSceneName));
+        StartCoroutine(LoadIn_Coroutine(true));
     }
 
     public void GoToMainMenu() {
@@ -35,6 +40,42 @@ public class GameManager : MonoBehaviour
 
     public void EndGame() {
         StartCoroutine(LoadScene_Coroutine(EndSceneName));
+    }
+
+    private IEnumerator LoadIn_Coroutine(bool showHowToPlay = false) {
+
+        LoadingScreenCanvas.SetActive(true);
+
+        Color c = LoadingScreen.color;
+
+        // fade in loading screen
+        for (float alpha = 0f; alpha <= 1f; alpha += 0.2f) {
+            c.a = alpha;
+            LoadingScreen.color = c;
+            yield return new WaitForSeconds(0.02f);
+        }
+
+        // show how to play instructions
+        HowToPlay.SetActive(showHowToPlay);
+    }
+
+    private IEnumerator LoadOut_Coroutine(string scene) {
+
+        Color c = LoadingScreen.color;
+
+        // load scene
+        SceneManager.LoadScene(scene);
+
+        yield return new WaitForSeconds(LoadTime);
+
+        // fade out loading screen
+        for (float alpha = 1f; alpha >= 0f; alpha -= 0.2f) {
+            c.a = alpha;
+            LoadingScreen.color = c;
+            yield return new WaitForSeconds(0.02f);
+        }
+
+        LoadingScreenCanvas.SetActive(false);
     }
 
     private IEnumerator LoadScene_Coroutine(string scene) {
