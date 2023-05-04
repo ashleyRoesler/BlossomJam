@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
+  m_Name: Spring_28
+  m_EditorClassIdentifier: 
+  PageNumber: 28
+  Season: 2
+  PageText: '"Here, follow me," Fox said, and led everyone to a small pile of leaves
+    behind his burrow. He carefully moved the leaves away and revealed some brilliantly
+    pink flowers. Ermine gasped at how colorful they were. "During Winter''s last
+    visit, I stumbled upon a single flower that had somehow grown despite the snow
+    and the freezing cold. It showed me that Winter was weakening, and that spring
+    would soon be here again. I took the flower and showed Winter, and he was so
+    afraid that he ran off! Ever since then, I''ve made sure to keep a few flowers
+    growing just in case, and knowing that they are there helps me stay warm." Fox
+    took one of the flowers and gave it to Ermine. "I believe that you could do the
+    same thing."'

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
+  m_Name: Fall_1
+  m_EditorClassIdentifier: 
+  PageNumber: 1
+  Season: 0
+  PageText: The day was bright and full of color. A pleasant breeze rustled the leaves
+    as Ermine played with her friends. She and her friends - Robin, Mouse, and Squirrel
+    - lept through the crunchy leaves of autumn, enjoying the vibrant hues and glittery
+    sunshine. Life was warm and good.

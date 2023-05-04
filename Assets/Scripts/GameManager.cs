@@ -3,8 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
     public string MainMenuSceneName;
     public string GameSceneName;
     public string EndSceneName;

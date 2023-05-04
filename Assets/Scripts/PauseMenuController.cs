@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class PauseMenuController : MonoBehaviour
-{
+public class PauseMenuController : MonoBehaviour {
     public KeyCode PauseKey = KeyCode.P;
 
     public GameObject PauseScreen;

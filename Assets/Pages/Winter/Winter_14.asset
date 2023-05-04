@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
+  m_Name: Winter_14
+  m_EditorClassIdentifier: 
+  PageNumber: 14
+  Season: 1
+  PageText: "A faint sound made its way into the cave. Ermine sat up and pricked
+    up her ears. It sounded familiar. She listened closer.\n\t\"Ermine!\" She jumped
+    up. It was faint but she was sure. It was her friends! They had found her! She
+    looked at Bear who peacefully slumbered.\n\t\"Thank you,\" she whispered, and
+    ran out of the cave to find her friends and finally go home."

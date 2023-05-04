@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
+  m_Name: Spring_22
+  m_EditorClassIdentifier: 
+  PageNumber: 22
+  Season: 2
+  PageText: '"Ermine!" Ermine spun around. She was sure of it this time, there was
+    no mistake! Her friends! She was found! She was saved! Winter growled in frustration
+    and slinked away into nothingness, the fog dissipating. Ermine cried as Mouse,
+    Robin, and Squirrel bounded up to her. They wrapped her up in a warm embrace.'
