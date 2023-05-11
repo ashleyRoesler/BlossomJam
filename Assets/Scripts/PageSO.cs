@@ -12,6 +12,8 @@ public class PageSO : ScriptableObject {
 
 public enum Season {
     Fall,
+    PreWinter,
     Winter,
+    PreSpring,
     Spring
 }
