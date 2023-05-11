@@ -7,7 +7,7 @@ public class InGameManager : MonoBehaviour {
 
     private int CurrentPage = 0;
 
-    public event System.Action<PageSO, bool> PageChanged;
+    public event System.Action<PageSO, bool, bool> PageChanged;
 
     private void OnEnable() {
 
@@ -18,7 +18,7 @@ public class InGameManager : MonoBehaviour {
 
     public void SetPage(int page) {
         CurrentPage = page;
-        PageChanged?.Invoke(Pages[CurrentPage], CurrentPage == Pages.Count - 1);
+        PageChanged?.Invoke(Pages[CurrentPage], CurrentPage == 0, CurrentPage == Pages.Count - 1);
     }
 
     public void AdvancePage() {

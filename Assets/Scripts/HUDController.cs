@@ -30,10 +30,11 @@ public class HUDController : MonoBehaviour {
         InGameManager.PageChanged -= InGameManager_PageChanged;
     }
 
-    private void InGameManager_PageChanged(PageSO page, bool isLastPage) {
+    private void InGameManager_PageChanged(PageSO page, bool isFirstPage, bool isLastPage) {
         PageText.text = page.PageText;
         PageNumber.text = page.PageNumber.ToString();
 
+        BackButton.gameObject.SetActive(!isFirstPage);
         NextButton.gameObject.SetActive(!isLastPage);
         EndButton.gameObject.SetActive(isLastPage);
 
