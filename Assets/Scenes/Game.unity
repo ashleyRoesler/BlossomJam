@@ -1458,7 +1458,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2086138157}
         m_TargetAssemblyTypeName: InGameManager, Assembly-CSharp
-        m_MethodName: AdvancePage
+        m_MethodName: AdvanceText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1893,7 +1893,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2086138157}
         m_TargetAssemblyTypeName: InGameManager, Assembly-CSharp
-        m_MethodName: ReducePage
+        m_MethodName: ReduceText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

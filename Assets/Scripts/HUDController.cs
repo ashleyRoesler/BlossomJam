@@ -24,10 +24,16 @@ public class HUDController : MonoBehaviour {
 
     private void Awake() {
         InGameManager.PageChanged += InGameManager_PageChanged;
+        InGameManager.TextChanged += InGameManager_TextChanged;
     }
 
     private void OnDisable() {
         InGameManager.PageChanged -= InGameManager_PageChanged;
+        InGameManager.TextChanged -= InGameManager_TextChanged;
+    }
+
+    private void InGameManager_TextChanged(string text) {
+        PageText.text = text;
     }
 
     private void InGameManager_PageChanged(PageSO page, bool isFirstPage, bool isLastPage) {
