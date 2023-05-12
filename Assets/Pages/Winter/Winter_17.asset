@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_17
   m_EditorClassIdentifier: 
-  PageNumber: 17
   Season: 2
-  PageText: There was nothing she could do but run. She knew everything would end
-    if she got caught. She still didn't know exactly what Winter was, but she knew
-    that its presence was horrid and evil. It stole away her warmth, her life, and
-    chilled her down to her bones. It twisted her insides into a horrible, desperate
-    sob. If she got caught, she feared everything may end.
+  TextSections:
+  - "\"Hey,\" a hollow voice said. Ermine spun around and found a pure-white hare
+    staring at her.\n\t\"Uh... H-hello?\"\n\t\"Just give up.\""
+  - "\"What? What do you mean?\"\n\t\"Just give up. Winter's rule is inevitable.
+    Just let him take you.\""
+  - Hare's stare was unwavering, intense, yet completely empty of any emotion. He
+    had no color, no life, no warmth. He was barely existing. Is this what would
+    happen to her?

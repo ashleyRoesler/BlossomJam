@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_10
   m_EditorClassIdentifier: 
-  PageNumber: 10
   Season: 2
-  PageText: Ermine didn't know how far she'd gone. Winter's laugh still rang through
-    her ears. Or was he still there? All around her, covering the forest, coating
-    every leaf, bubbling up under her feet, filling her mind. The trees loomed over
-    her. She needed to hide. She looked around and spotted a dark cave, barely visible.
-    Surely Winter could not find her there! So she ran with the last of her strength
-    into the safety of the dark.
+  PageText: Ermine sat for a while to catch her breath, enjoying the darkness and
+    quiet. Except, as the ringing in her ears faded, she noticed that it was not
+    quiet at all. The dark was... snoring? Ermine hesitantly searched for the source
+    of the sound and accidentally ran into something soft, warm, and very, very large.
+    She leapt back in surprise. It was a bear! The bear rolled over and opened one
+    eye to peek at the intruder.
+  TextSections:
+  - Ermine sat for a while to catch her breath, enjoying the darkness and quiet.
+    Except, as the ringing in her ears faded, she noticed that it was not quiet at
+    all. The dark was... snoring?
+  - Ermine hesitantly searched for the source of the sound and accidentally ran into
+    something soft, warm, and very, very large. She leapt back in surprise. It was
+    a bear! The bear rolled over and opened one eye to peek at the intruder.

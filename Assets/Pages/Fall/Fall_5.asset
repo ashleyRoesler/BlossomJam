@@ -17,3 +17,7 @@ MonoBehaviour:
   PageText: Ermine rolled through the leaves and crashed somewhere dark and unfamiliar.
     The friendly forest suddenly seemed... carnivorous. She called out to her friends
     but only the wind answered.
+  TextSections:
+  - Ermine rolled through the leaves and crashed somewhere dark and unfamiliar. The
+    friendly forest suddenly seemed... carnivorous. She called out to her friends
+    but only the wind answered.

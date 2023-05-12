@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Spring_29
   m_EditorClassIdentifier: 
-  PageNumber: 29
   Season: 4
-  PageText: "Ermine gingerly took the flower, filled with newfound courage. Her friends
-    gathered around her.\n\t\"We'll be with you the whole time,\" Mouse assured.\n\t\"Yeah,
-    we won't let him get you! Never in a million years!\" Squirrel gave Ermine a
-    hug.\n\t\"We believe in you.\" Ermine gave Robin a determined nod. Suddenly,
-    in the distance, came the warning chorus of crows, signaling Winter's arrival.
-    Ermine took a deep breath."
+  TextSections:
+  - '"WINTER!" She yelled, shaking but standing. "It is time for you to end!"'
+  - The storm halted. That deep, horrible laugh echoed through the trees. Winter's
+    eyes shone forth and his evil smile followed. Ermine sensed that something was
+    wrong. Why was he not scared?

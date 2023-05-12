@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_12
   m_EditorClassIdentifier: 
-  PageNumber: 12
   Season: 2
-  PageText: "\"Oh! Er, I didn't mean to wake you! I just needed to find a place to
-    hide! Sorry!\" ermine stammered, hoping the bear wouldn't decide to eat her.
-    The bear yawned and lifted its head to see Ermine fully.\n\t\"First Winter?\"
-    Bear asked sleepily, knowingly. Ermine nodded. \"It's pretty rough out there,
-    huh. You're welcome to stay as long as you like.\" And with that, Bear rolled
-    back over and the soft snoring soon resumed."
+  TextSections:
+  - 'Relieved, Ermine curled up and watched as snow started softly falling outside
+    the cave. Winter didn''t seem too bad from inside the cave. The snow was almost
+    pretty, even. '
+  - Maybe she should just stay in the cave and sleep until Winter passed, as Bear
+    seemed to be doing. Except, Ermine wondered, how long would Winter's reign last?
+    How long could she last in this cave? Would Winter ever leave? Would she have
+    to stay here forever?
+  - She rested and pondered and watched as the snow grew heavier and heavier.

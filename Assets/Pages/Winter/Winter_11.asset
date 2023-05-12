@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_11
   m_EditorClassIdentifier: 
-  PageNumber: 11
   Season: 2
-  PageText: Ermine sat for a while to catch her breath, enjoying the darkness and
-    quiet. Except, as the ringing in her ears faded, she noticed that it was not
-    quiet at all. The dark was... snoring? Ermine hesitantly searched for the source
-    of the sound and accidentally ran into something soft, warm, and very, very large.
-    She leapt back in surprise. It was a bear! The bear rolled over and opened one
-    eye to peek at the intruder.
+  PageText: "\"Oh! Er, I didn't mean to wake you! I just needed to find a place to
+    hide! Sorry!\" ermine stammered, hoping the bear wouldn't decide to eat her.
+    The bear yawned and lifted its head to see Ermine fully.\n\t\"First Winter?\"
+    Bear asked sleepily, knowingly. Ermine nodded. \"It's pretty rough out there,
+    huh. You're welcome to stay as long as you like.\" And with that, Bear rolled
+    back over and the soft snoring soon resumed."
+  TextSections:
+  - '"Oh! Er, I didn''t mean to wake you! I just needed to find a place to hide!
+    Sorry!" Ermine stammered, hoping the bear wouldn''t decide to eat her. The bear
+    yawned and lifted its head to see Ermine fully.'
+  - '"First Winter?" Bear asked sleepily, knowingly. Ermine nodded. "It''s pretty
+    rough out there, huh. You''re welcome to stay as long as you like." And with
+    that, Bear rolled back over and the soft snoring soon resumed.'

@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Spring_32
   m_EditorClassIdentifier: 
-  PageNumber: 32
   Season: 4
-  PageText: '"So... weak. You think that will stop me again?" Winter jeered. A terrible
-    clas reached out from the nothingness. Ermine and her friends jumped back. The
-    claw stole away the flower, Ermine''s last hope, her warmth, her future, her
-    color, and crushed it. Its pieces drifted away into the dark. "HAH! HAHAHAHAHAHAHA!"
-    The world was spinning. Ermine''s breath was short. Was it all over? What was
-    there left to do? Her proof of spring was gone. She couldn''t breathe.'
+  TextSections:
+  - Winter shrinked back, horrified. Ermine turned toward him, defiant, strong. If
+    she carried spring inside her, then Winter could never take her. If she held
+    onto that hope, then Winter could be defeated!

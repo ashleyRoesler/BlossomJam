@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_18
   m_EditorClassIdentifier: 
-  PageNumber: 18
   Season: 2
-  PageText: "So again she ran, and ran, and ran, the crows screeching out behind
-    her, a fearsome warning of her pursuing foe. The blizzard swirled around her,
-    obscuring the forest into endless white walls.\n\t\"HELP! SOMEONE!\" Ermine called
-    out hopelessly, scared for her life. She heard the low rumbling of Winter laugh
-    in amusement at his prey."
+  TextSections:
+  - '"Looks like he''s almost got you anyways." Confused, Ermine looked down at her
+    coat. Wait, where was her color? Her fur was as white as the snow. Panic set
+    in. Her heart thudded loudly, painfully. Was it too late? Was she gone? She couldn''t
+    breathe.'
+  - '"No," she said incredulously. "No! Please! Don''t take me! I-I want to live!"'

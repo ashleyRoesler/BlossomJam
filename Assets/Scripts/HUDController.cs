@@ -32,20 +32,22 @@ public class HUDController : MonoBehaviour {
         InGameManager.TextChanged -= InGameManager_TextChanged;
     }
 
-    private void InGameManager_TextChanged(string text) {
+    private void InGameManager_TextChanged(string text, bool isFirstText, bool isLastText) {
         PageText.text = text;
+
+        BackButton.gameObject.SetActive(!isFirstText);
+        NextButton.gameObject.SetActive(!isLastText);
+        EndButton.gameObject.SetActive(isLastText);
     }
 
-    private void InGameManager_PageChanged(PageSO page, bool isFirstPage, bool isLastPage, int textIndex) {
-
-        Debug.LogWarning("TEXT INDEX: " + textIndex);
+    private void InGameManager_PageChanged(PageSO page, int pageIndex, int textIndex, bool isFirstText, bool isLastText) {
 
         PageText.text = page.TextSections[textIndex];
-        PageNumber.text = page.PageNumber.ToString();
+        PageNumber.text = (pageIndex + 1).ToString();
 
-        BackButton.gameObject.SetActive(!isFirstPage);
-        NextButton.gameObject.SetActive(!isLastPage);
-        EndButton.gameObject.SetActive(isLastPage);
+        BackButton.gameObject.SetActive(!isFirstText);
+        NextButton.gameObject.SetActive(!isLastText);
+        EndButton.gameObject.SetActive(isLastText);
 
         switch (page.Season) {
 

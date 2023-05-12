@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
+  m_Name: Pre-Winter_7
+  m_EditorClassIdentifier: 
+  PageNumber: 7
+  Season: 1
+  PageText: '"Where am I?" Ermine wondered, unsettled. As she uttered those words,
+    the wind stopped. The howling ceased. Silence gripped the whole forest, and Ermine
+    froze. She felt a horrid, icy breath as she held her own.'
+  TextSections:
+  - '"Where am I?" Ermine wondered, unsettled. As she uttered those words, the wind
+    stopped. The howling ceased. Silence gripped the whole forest, and Ermine froze.
+    She felt a horrid, icy breath as she held her own.'
+  - '"OH... ARE YOU LOST?" A voice smiled menacingly, mockingly, hungry. Ermine shuddered.
+    "DID YOU LOSE YOUR WAY?" The beast cackled. Ermine couldn''t breathe. Dread quaked
+    her soul.'
+  - '"W-Winter?" she squeaked.
+
+
+    "HAHAHAHAHAHA!"'

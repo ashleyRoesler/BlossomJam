@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Spring_31
   m_EditorClassIdentifier: 
-  PageNumber: 31
   Season: 4
-  PageText: '"WINTER!" She yelled, shaking but standing. "It is time for you to end!"
-    The storm halted. That deep, horrible laugh echoed through the trees. Winter''s
-    eyes shone forth and his evil smile followed. Ermine sensed that something was
-    wrong. Why was he not scared?'
+  TextSections:
+  - '"Wait, Ermine!" Mouse suddenly shouted, excited. Ermine looked her way through
+    tears. "Look! Your color! Maybe, maybe you have spring within you!"'
+  - Ermine's eyes widened as she looked down at her fur. Amidst the white were little
+    patches of brown, her soft, warm brown! Proof that Winter was weakening. Proof
+    that she was still alive.

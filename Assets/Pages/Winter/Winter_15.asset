@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_15
   m_EditorClassIdentifier: 
-  PageNumber: 15
   Season: 2
-  PageText: Ermine ran toward where she'd heard the voice of her friends. She stopped
-    and strained her ears, trying to hear them again. The wind was picking up, and
-    the snow was making it hard to see. She though she heard the echo of her name
-    again. Or had it just been the wind? Or was it the crows? Where had they come
-    from? They blanketed the trees, darkening the already blurry sky. Worried, Ermine
-    turned back to the cave, but it was gone. Why was it so foggy all of a sudden?
+  TextSections:
+  - There was nothing she could do but run. She knew everything would end if she
+    got caught. She still didn't know exactly what Winter was, but she knew that
+    its presence was horrid and evil.
+  - It stole away her warmth, her life, and chilled her down to her bones. It twisted
+    her insides into a horrible, desperate sob. If she got caught, she feared everything
+    may end.

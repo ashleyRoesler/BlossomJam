@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_16
   m_EditorClassIdentifier: 
-  PageNumber: 16
   Season: 2
-  PageText: A creeping feeling crawled through Ermine, and she knew. She knew this
-    chilly breath, this haunting force. Winter had found her again.
+  TextSections:
+  - So again she ran, and ran, and ran, the crows screeching out behind her, a fearsome
+    warning of her pursuing foe. The blizzard swirled around her, obscuring the forest
+    into endless white walls.
+  - '"HELP! SOMEONE!" Ermine called out hopelessly, scared for her life. She heard
+    the low rumbling of Winter laugh in amusement at his prey.'

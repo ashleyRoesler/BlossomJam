@@ -12,8 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_9
   m_EditorClassIdentifier: 
-  PageNumber: 9
   Season: 2
-  PageText: "She ran. She ran and ran, Winter's thundering steps at her tail. She
-    kept running, eyes bleary from the cutting wind and stinging fear.\n\t\"YOU CAN'T
-    ESCAPE ME!\""
+  PageText: Ermine didn't know how far she'd gone. Winter's laugh still rang through
+    her ears. Or was he still there? All around her, covering the forest, coating
+    every leaf, bubbling up under her feet, filling her mind. The trees loomed over
+    her. She needed to hide. She looked around and spotted a dark cave, barely visible.
+    Surely Winter could not find her there! So she ran with the last of her strength
+    into the safety of the dark.
+  TextSections:
+  - Ermine didn't know how far she'd gone. Winter's laugh still rang through her
+    ears. Or was he still there? All around her, covering the forest, coating every
+    leaf, bubbling up under her feet, filling her mind. The trees loomed over her.
+  - She needed to hide. She looked around and spotted a dark cave, barely visible.
+    Surely Winter could not find her there! So she ran with the last of her strength
+    into the safety of the dark.

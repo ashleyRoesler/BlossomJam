@@ -8,8 +8,8 @@ public class InGameManager : MonoBehaviour {
     private int PageIndex = 0;
     private int TextIndex = 0;
 
-    public event System.Action<PageSO, bool, bool, int> PageChanged;
-    public event System.Action<string> TextChanged;
+    public event System.Action<PageSO, int, int, bool, bool> PageChanged;
+    public event System.Action<string, bool, bool> TextChanged;
 
     private void OnEnable() {
 
@@ -21,16 +21,20 @@ public class InGameManager : MonoBehaviour {
     public void SetPage(int pageIndex, int textIndex) {
         TextIndex = textIndex;
         PageIndex = pageIndex;
-        PageChanged?.Invoke(Pages[PageIndex], PageIndex == 0, PageIndex == Pages.Count - 1, textIndex);
 
-        Debug.LogWarning("page: " + pageIndex);
+        bool isFirstText = PageIndex == 0 && TextIndex == 0;
+        bool isLastText = PageIndex == Pages.Count - 1 && TextIndex == Pages[Pages.Count - 1].TextSections.Count - 1;
+
+        PageChanged?.Invoke(Pages[PageIndex], pageIndex, textIndex, isFirstText, isLastText);
     }
 
     public void SetText(int textIndex) {
         TextIndex = textIndex;
-        TextChanged?.Invoke(Pages[PageIndex].TextSections[TextIndex]);
 
-        Debug.LogWarning("text: " + textIndex);
+        bool isFirstText = PageIndex == 0 && TextIndex == 0;
+        bool isLastText = PageIndex == Pages.Count - 1 && TextIndex == Pages[Pages.Count - 1].TextSections.Count - 1;
+
+        TextChanged?.Invoke(Pages[PageIndex].TextSections[TextIndex], isFirstText, isLastText);
     }
 
     public void AdvanceText() {

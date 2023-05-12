@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Spring_34
   m_EditorClassIdentifier: 
-  PageNumber: 34
   Season: 4
-  PageText: Winter shrinked back, horrified. Ermine turned toward him, defiant, strong.
-    If she carried spring inside her, then Winter could never take her. If she held
-    onto that hope, then Winter could be defeated!
+  PageText: The frigid wind rushed past Ermine one last time, and she heard a whisper,
+    "I will come again." She smiled and whispered back, "And so will the spring."
+  TextSections:
+  - The frigid wind rushed past Ermine one last time, and she heard a whisper, "I
+    will come again." She smiled and whispered back, "And so will the spring."

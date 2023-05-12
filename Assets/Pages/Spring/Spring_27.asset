@@ -12,15 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Spring_27
   m_EditorClassIdentifier: 
-  PageNumber: 27
   Season: 4
-  PageText: "So the group followed Owl as she flew through the trees until they reached
-    a small hole.\n\t\"Fox? Are you there?\" Owl called out into the hole. A moment
-    later, after some rustling, a white fox popped its head out. The group was startled.
-    If Fox had defeated Winter, then why was his color gone?\n\t\"Oh! Hello! What
-    can I do for you?\" Fox smiled cheerfully, despite his snowy appearance.\n\t\"Is
-    it true that you've defeated Winter?\" Ermine asked, skeptical.\n\t\"It is indeed!
-    Though,\" he said as he fully emerged to greet the group, \"it may not look like
-    it. Every time Winter comes around, I still seem to lose all my color. But I'm
-    still warm on the inside, which is the important part.\" Ermine was mystified.\n\t\"How
-    did you do it? Can I be warm again, too?\""
+  TextSections:
+  - Ermine gingerly took the flower, filled with newfound courage. Her friends gathered
+    around her.
+  - "\"We'll be with you the whole time,\" Mouse assured.\n\t\"Yeah, we won't let
+    him get you! Never in a million years!\" Squirrel gave Ermine a hug.\n\t\"We
+    believe in you.\" Ermine gave Robin a determined nod."
+  - Suddenly, in the distance, came the warning chorus of crows, signaling Winter's
+    arrival. Ermine took a deep breath.

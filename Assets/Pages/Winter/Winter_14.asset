@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Winter_14
   m_EditorClassIdentifier: 
-  PageNumber: 14
   Season: 2
-  PageText: "A faint sound made its way into the cave. Ermine sat up and pricked
-    up her ears. It sounded familiar. She listened closer.\n\t\"Ermine!\" She jumped
-    up. It was faint but she was sure. It was her friends! They had found her! She
-    looked at Bear who peacefully slumbered.\n\t\"Thank you,\" she whispered, and
-    ran out of the cave to find her friends and finally go home."
+  TextSections:
+  - Ermine ran toward where she'd heard the voice of her friends. She stopped and
+    strained her ears, trying to hear them again. The wind was picking up, and the
+    snow was making it hard to see.
+  - She though she heard the echo of her name again. Or had it just been the wind?
+    Or was it the crows? Where had they come from? They blanketed the trees, darkening
+    the already blurry sky.
+  - Worried, Ermine turned back to the cave, but it was gone. Why was it so foggy
+    all of a sudden?
+  - A creeping feeling crawled through Ermine, and she knew. She knew this chilly
+    breath, this haunting force. Winter had found her again.
