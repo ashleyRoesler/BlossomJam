@@ -11,7 +11,7 @@ public class PageSO : ScriptableObject {
     public string PageText;
 
     [Space, TextArea(10, 20)]
-    public List<string> PageTexts = new List<string>();
+    public List<string> TextSections = new List<string>();
 }
 
 public enum Season {
