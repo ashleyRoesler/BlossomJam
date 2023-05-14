@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour {
     [Space]
     public float LoadTime = 1f;
 
+    static public Season SeasonToPlay = Season.Fall;
+
     public void Awake() {
         DontDestroyOnLoad(gameObject);
 
@@ -26,9 +28,9 @@ public class GameManager : MonoBehaviour {
         });
     }
 
-    public void PlayGame(int pageIndex = 0) {
+    public void PlayGame(int season) {
 
-        // to do: make player able to load to specific scene... how??? Page manager? page event?
+        SeasonToPlay = (Season)season;
 
         StartCoroutine(LoadIn_Coroutine(true));
     }

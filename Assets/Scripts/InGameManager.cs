@@ -12,10 +12,7 @@ public class InGameManager : MonoBehaviour {
     public event System.Action<string, bool, bool> TextChanged;
 
     private void OnEnable() {
-
-        // todo: allow main menu to choose starting page
-
-        SetPage(0, 0);
+        SetPage(Pages.FindIndex(p => p.Season == GameManager.SeasonToPlay), 0);
     }
 
     public void SetPage(int pageIndex, int textIndex) {
