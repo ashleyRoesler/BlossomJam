@@ -8,6 +8,9 @@ public class PageSO : ScriptableObject {
 
     [Space, TextArea(10, 20)]
     public List<string> TextSections = new List<string>();
+
+    [Space]
+    public GameObject EnvironmentPrefab;
 }
 
 public enum Season {

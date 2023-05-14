@@ -22,11 +22,15 @@ public class InGameManager : MonoBehaviour {
             GameManager.LastSeasonStarted = (int)Pages[pageIndex].Season;
         }
 
+        // change text
         TextIndex = textIndex;
         PageIndex = pageIndex;
 
         bool isFirstText = PageIndex == 0 && TextIndex == 0;
         bool isLastText = PageIndex == Pages.Count - 1 && TextIndex == Pages[Pages.Count - 1].TextSections.Count - 1;
+
+        // change environment (delete old, instantiate new)
+
 
         PageChanged?.Invoke(Pages[PageIndex], pageIndex, textIndex, isFirstText, isLastText);
     }
