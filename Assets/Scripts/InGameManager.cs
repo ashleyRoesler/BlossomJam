@@ -16,6 +16,12 @@ public class InGameManager : MonoBehaviour {
     }
 
     public void SetPage(int pageIndex, int textIndex) {
+
+        // check if a new season has started
+        if ((int)Pages[PageIndex].Season < (int)Pages[pageIndex].Season) {
+            GameManager.LastSeasonStarted = (int)Pages[pageIndex].Season;
+        }
+
         TextIndex = textIndex;
         PageIndex = pageIndex;
 

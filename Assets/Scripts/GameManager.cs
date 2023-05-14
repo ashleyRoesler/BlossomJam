@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour {
     public float LoadTime = 1f;
 
     static public Season SeasonToPlay = Season.Fall;
+    static public int LastSeasonStarted = 0;
 
     public void Awake() {
         DontDestroyOnLoad(gameObject);
