@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Fall_1
   m_EditorClassIdentifier: 
-  PageNumber: 1
   Season: 0
-  PageText: The day was bright and full of color. A pleasant breeze rustled the leaves
-    as Ermine played with her friends. She and her friends - Robin, Mouse, and Squirrel
-    - lept through the crunchy leaves of autumn, enjoying the vibrant hues and glittery
-    sunshine. Life was warm and good.
   TextSections:
   - The day was bright and full of color. A pleasant breeze rustled the leaves as
     Ermine played with her friends. She and her friends - Robin, Mouse, and Squirrel
     - lept through the crunchy leaves of autumn, enjoying the vibrant hues and glittery
     sunshine. Life was warm and good.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 55490da461011cd40a6cca2e623392a3,
+    type: 3}

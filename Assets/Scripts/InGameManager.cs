@@ -11,6 +11,8 @@ public class InGameManager : MonoBehaviour {
     public event System.Action<PageSO, int, int, bool, bool> PageChanged;
     public event System.Action<string, bool, bool> TextChanged;
 
+    private GameObject _spawnedEnvironment = null;
+
     private void OnEnable() {
         SetPage(Pages.FindIndex(p => p.Season == GameManager.SeasonToPlay), 0);
     }
@@ -30,7 +32,11 @@ public class InGameManager : MonoBehaviour {
         bool isLastText = PageIndex == Pages.Count - 1 && TextIndex == Pages[Pages.Count - 1].TextSections.Count - 1;
 
         // change environment (delete old, instantiate new)
+        if (_spawnedEnvironment) {
+            Destroy(_spawnedEnvironment);
+        }
 
+        _spawnedEnvironment = Instantiate(Pages[PageIndex].EnvironmentPrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
 
         PageChanged?.Invoke(Pages[PageIndex], pageIndex, textIndex, isFirstText, isLastText);
     }
