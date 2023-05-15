@@ -12,14 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Fall_2
   m_EditorClassIdentifier: 
-  PageNumber: 2
   Season: 0
-  PageText: "Suddenly, the group felt a frigid breeze. A distant howl sounded from
-    deep in the woods.\n\t\"What... what was that?\" Mouse shivered.\n\t\"Oh no,\"
-    replied Robin. \"It can't be....\"\n\t\"What? What is it?\" Ermine questioned,
-    nervous. Robin hesitated, fearful to let even a single word pass his beak.\n\t\"Winter.
-    It's here to take us.\"\n\t\"What? What do you mean?\" Ermine looked to her friend
-    for answers, but Robin just stared into the forest. The group grew restless."
   TextSections:
   - "Suddenly, the group felt a frigid breeze. A distant howl sounded from deep in
     the woods.\n\t\"What... what was that?\" Mouse shivered.\n\t\"Oh no,\" replied
@@ -29,3 +22,5 @@ MonoBehaviour:
     What do you mean?\""
   - Ermine looked to her friend for answers, but Robin just stared into the forest.
     The group grew restless.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 0a7de37b1950f8446a5307002a2cdb76,
+    type: 3}

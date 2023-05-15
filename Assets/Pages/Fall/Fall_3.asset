@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Fall_3
   m_EditorClassIdentifier: 
-  PageNumber: 3
   Season: 0
-  PageText: The wind howled again, louder, closer this time. Everyone jumped, and
-    Mouse yelled, "RUN!" The group took off, away from the horrible howling and growling
-    of this mysterious, horrible Winter. Though Ermine didn't know what it was, she
-    knew it was most definitely not something good.
   TextSections:
   - The wind howled again, louder, closer this time. Everyone jumped, and Mouse yelled,
     "RUN!" The group took off, away from the horrible howling and growling of this
     mysterious, horrible Winter. Though Ermine didn't know what it was, she knew
     it was most definitely not something good.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: f5dac3d67c7b8084e98d1a41b0c9f24f,
+    type: 3}
