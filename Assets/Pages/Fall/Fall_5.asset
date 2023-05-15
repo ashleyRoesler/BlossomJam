@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Fall_5
   m_EditorClassIdentifier: 
-  PageNumber: 5
   Season: 0
-  PageText: Ermine rolled through the leaves and crashed somewhere dark and unfamiliar.
-    The friendly forest suddenly seemed... carnivorous. She called out to her friends
-    but only the wind answered.
   TextSections:
   - Ermine rolled through the leaves and crashed somewhere dark and unfamiliar. The
     friendly forest suddenly seemed... carnivorous. She called out to her friends
     but only the wind answered.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

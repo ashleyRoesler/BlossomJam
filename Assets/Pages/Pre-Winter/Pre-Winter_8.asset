@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Pre-Winter_8
   m_EditorClassIdentifier: 
-  PageNumber: 8
   Season: 1
-  PageText: "She ran. She ran and ran, Winter's thundering steps at her tail. She
-    kept running, eyes bleary from the cutting wind and stinging fear.\n\t\"YOU CAN'T
-    ESCAPE ME!\""
   TextSections:
   - She ran. She ran and ran, Winter's thundering steps at her tail. She kept running,
     eyes bleary from the cutting wind and stinging fear.
   - '"YOU CAN''T ESCAPE ME!"'
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

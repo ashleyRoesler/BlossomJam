@@ -22,3 +22,5 @@ MonoBehaviour:
     How long could she last in this cave? Would Winter ever leave? Would she have
     to stay here forever?
   - She rested and pondered and watched as the snow grew heavier and heavier.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

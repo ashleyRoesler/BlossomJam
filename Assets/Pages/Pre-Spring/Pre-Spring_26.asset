@@ -24,3 +24,5 @@ MonoBehaviour:
   - '"Ever since then, I''ve made sure to keep a few flowers growing just in case,
     and knowing that they are there helps me stay warm." Fox took one of the flowers
     and gave it to Ermine. "I believe that you could do the same thing."'
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

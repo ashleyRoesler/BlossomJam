@@ -17,3 +17,5 @@ MonoBehaviour:
   - Winter shrinked back, horrified. Ermine turned toward him, defiant, strong. If
     she carried spring inside her, then Winter could never take her. If she held
     onto that hope, then Winter could be defeated!
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

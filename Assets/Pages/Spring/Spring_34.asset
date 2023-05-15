@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Spring_34
   m_EditorClassIdentifier: 
   Season: 4
-  PageText: The frigid wind rushed past Ermine one last time, and she heard a whisper,
-    "I will come again." She smiled and whispered back, "And so will the spring."
   TextSections:
   - The frigid wind rushed past Ermine one last time, and she heard a whisper, "I
     will come again." She smiled and whispered back, "And so will the spring."
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

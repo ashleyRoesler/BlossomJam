@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: Winter_11
   m_EditorClassIdentifier: 
   Season: 2
-  PageText: "\"Oh! Er, I didn't mean to wake you! I just needed to find a place to
-    hide! Sorry!\" ermine stammered, hoping the bear wouldn't decide to eat her.
-    The bear yawned and lifted its head to see Ermine fully.\n\t\"First Winter?\"
-    Bear asked sleepily, knowingly. Ermine nodded. \"It's pretty rough out there,
-    huh. You're welcome to stay as long as you like.\" And with that, Bear rolled
-    back over and the soft snoring soon resumed."
   TextSections:
   - '"Oh! Er, I didn''t mean to wake you! I just needed to find a place to hide!
     Sorry!" Ermine stammered, hoping the bear wouldn''t decide to eat her. The bear
@@ -26,3 +20,5 @@ MonoBehaviour:
   - '"First Winter?" Bear asked sleepily, knowingly. Ermine nodded. "It''s pretty
     rough out there, huh. You''re welcome to stay as long as you like." And with
     that, Bear rolled back over and the soft snoring soon resumed.'
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

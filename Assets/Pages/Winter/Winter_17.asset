@@ -21,3 +21,5 @@ MonoBehaviour:
   - Hare's stare was unwavering, intense, yet completely empty of any emotion. He
     had no color, no life, no warmth. He was barely existing. Is this what would
     happen to her?
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

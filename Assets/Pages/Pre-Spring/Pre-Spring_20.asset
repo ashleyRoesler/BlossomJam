@@ -19,3 +19,5 @@ MonoBehaviour:
   - Winter growled in frustration and slinked away into nothingness, the fog dissipating.
     Ermine cried as Mouse, Robin, and Squirrel bounded up to her. They wrapped her
     up in a warm embrace.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

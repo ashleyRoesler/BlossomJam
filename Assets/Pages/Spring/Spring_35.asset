@@ -19,3 +19,5 @@ MonoBehaviour:
     Sunlight dripped from every leaf.
   - It was warm. It was warm! Ermine wept as she was covered in the sun's embrace
     once again.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

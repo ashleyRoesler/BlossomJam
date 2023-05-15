@@ -21,3 +21,5 @@ MonoBehaviour:
     believe in you.\" Ermine gave Robin a determined nod."
   - Suddenly, in the distance, came the warning chorus of crows, signaling Winter's
     arrival. Ermine took a deep breath.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

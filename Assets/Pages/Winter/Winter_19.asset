@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Winter_19
   m_EditorClassIdentifier: 
   Season: 2
-  PageText: Behind the hare, through the thick fog and raging snow, like hellish,
-    burning coals, appeared two violently yellow eyes and a sickening grin.
   TextSections:
   - Behind the hare, through the thick fog and raging snow, like hellish, burning
     coals, appeared two violently yellow eyes and a sickening grin.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

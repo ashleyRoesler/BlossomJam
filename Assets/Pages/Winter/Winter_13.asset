@@ -20,3 +20,5 @@ MonoBehaviour:
     They had found her!'
   - She looked at Bear who peacefully slumbered. "Thank you," she whispered, and
     ran out of the cave to find her friends and finally go home.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

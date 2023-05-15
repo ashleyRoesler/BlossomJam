@@ -19,3 +19,5 @@ MonoBehaviour:
     into endless white walls.
   - '"HELP! SOMEONE!" Ermine called out hopelessly, scared for her life. She heard
     the low rumbling of Winter laugh in amusement at his prey.'
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

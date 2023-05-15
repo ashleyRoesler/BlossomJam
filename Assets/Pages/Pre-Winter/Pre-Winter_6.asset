@@ -12,16 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Pre-Winter_6
   m_EditorClassIdentifier: 
-  PageNumber: 6
   Season: 1
-  PageText: It was very cold as Ermine wandered through this unfamiliar stretch of
-    the woods. She looked for anything familiar that would lead her back home and
-    back to her friends, but there was nothing. Even the normal voices of the forest,
-    birdsong and the chatter of other creatures, were strangely missing. The only
-    sound was the bitter wind.
   TextSections:
   - It was very cold as Ermine wandered through this unfamiliar stretch of the woods.
     She looked for anything familiar that would lead her back home and back to her
     friends, but there was nothing.
   - Even the normal voices of the forest, birdsong and the chatter of other creatures,
     were strangely missing. The only sound was the bitter wind.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

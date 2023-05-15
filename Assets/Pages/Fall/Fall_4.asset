@@ -12,16 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6cdd1c2f845e3418590f2c9268a8a5, type: 3}
   m_Name: Fall_4
   m_EditorClassIdentifier: 
-  PageNumber: 4
   Season: 0
-  PageText: So she ran as hard as she could, trying to keep up with her friends.
-    Robin flew swiftly through the air. Squirrel lept from branch to branch with
-    grace. Mouse scurried through the leaves. Ermine chased after them. The howling
-    was catching up. The wind grasped at Ermine's heels. She tripped, and tumbled,
-    and stumbled, and fell, as her friends bounded off.
   TextSections:
   - So she ran as hard as she could, trying to keep up with her friends. Robin flew
     swiftly through the air. Squirrel lept from branch to branch with grace. Mouse
     scurried through the leaves. Ermine chased after them.
   - The howling was catching up. The wind grasped at Ermine's heels. She tripped,
     and tumbled, and stumbled, and fell, as her friends bounded off.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}

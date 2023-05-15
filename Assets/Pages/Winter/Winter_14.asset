@@ -24,3 +24,5 @@ MonoBehaviour:
     all of a sudden?
   - A creeping feeling crawled through Ermine, and she knew. She knew this chilly
     breath, this haunting force. Winter had found her again.
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+    type: 3}
