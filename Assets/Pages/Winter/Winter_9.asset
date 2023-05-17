@@ -20,5 +20,5 @@ MonoBehaviour:
   - She needed to hide. She looked around and spotted a dark cave, barely visible.
     Surely Winter could not find her there! So she ran with the last of her strength
     into the safety of the dark.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 7a2c2500326eb1249b2001e77e2f6b49,
     type: 3}

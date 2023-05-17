@@ -20,5 +20,5 @@ MonoBehaviour:
   - '"First Winter?" Bear asked sleepily, knowingly. Ermine nodded. "It''s pretty
     rough out there, huh. You''re welcome to stay as long as you like." And with
     that, Bear rolled back over and the soft snoring soon resumed.'
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 06a1eed29bee16043999f279e1786c17,
     type: 3}
