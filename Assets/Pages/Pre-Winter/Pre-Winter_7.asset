@@ -24,5 +24,6 @@ MonoBehaviour:
 
 
     "HAHAHAHAHAHA!"'
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
   EnvironmentPrefab: {fileID: 3160048863614207793, guid: 77239b19db939324b8b989dd5f9d9ea1,
     type: 3}

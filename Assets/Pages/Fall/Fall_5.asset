@@ -17,5 +17,6 @@ MonoBehaviour:
   - Ermine rolled through the leaves and crashed somewhere dark and unfamiliar. The
     friendly forest suddenly seemed... carnivorous. She called out to her friends
     but only the wind answered.
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
   EnvironmentPrefab: {fileID: 3160048863614207793, guid: 826cd70b6b652f94a861ea4eae75f257,
     type: 3}

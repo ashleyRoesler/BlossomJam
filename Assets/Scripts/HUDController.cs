@@ -43,6 +43,8 @@ public class HUDController : MonoBehaviour {
     private void InGameManager_PageChanged(PageSO page, int pageIndex, int textIndex, bool isFirstText, bool isLastText) {
 
         PageText.text = page.TextSections[textIndex];
+        PageText.color = page.TextColor;
+
         PageNumber.text = (pageIndex + 1).ToString();
 
         BackButton.gameObject.SetActive(!isFirstText);

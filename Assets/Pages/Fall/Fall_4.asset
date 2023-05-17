@@ -19,5 +19,6 @@ MonoBehaviour:
     scurried through the leaves. Ermine chased after them.
   - The howling was catching up. The wind grasped at Ermine's heels. She tripped,
     and tumbled, and stumbled, and fell, as her friends bounded off.
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
   EnvironmentPrefab: {fileID: 3160048863614207793, guid: 2fdec9e53dc96664d8c460120c403daf,
     type: 3}

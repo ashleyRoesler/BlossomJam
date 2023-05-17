@@ -10,6 +10,7 @@ public class PageSO : ScriptableObject {
     public List<string> TextSections = new List<string>();
 
     [Space]
+    public Color TextColor = Color.black;
     public GameObject EnvironmentPrefab;
 }
 

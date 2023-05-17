@@ -19,5 +19,6 @@ MonoBehaviour:
     friends, but there was nothing.
   - Even the normal voices of the forest, birdsong and the chatter of other creatures,
     were strangely missing. The only sound was the bitter wind.
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
   EnvironmentPrefab: {fileID: 3160048863614207793, guid: e1005e93d1b2ec34f8bca0d677726149,
     type: 3}

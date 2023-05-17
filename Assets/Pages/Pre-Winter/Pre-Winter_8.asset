@@ -17,5 +17,6 @@ MonoBehaviour:
   - She ran. She ran and ran, Winter's thundering steps at her tail. She kept running,
     eyes bleary from the cutting wind and stinging fear.
   - '"YOU CAN''T ESCAPE ME!"'
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
   EnvironmentPrefab: {fileID: 3160048863614207793, guid: 9f171e770aa326148b69e16ed50f8d4f,
     type: 3}
