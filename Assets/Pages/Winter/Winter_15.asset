@@ -20,5 +20,6 @@ MonoBehaviour:
   - It stole away her warmth, her life, and chilled her down to her bones. It twisted
     her insides into a horrible, desperate sob. If she got caught, she feared everything
     may end.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: cefecdd1797bab347afca1db5937b407,
     type: 3}

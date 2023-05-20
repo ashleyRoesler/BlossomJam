@@ -19,5 +19,6 @@ MonoBehaviour:
     in. Her heart thudded loudly, painfully. Was it too late? Was she gone? She couldn''t
     breathe.'
   - '"No," she said incredulously. "No! Please! Don''t take me! I-I want to live!"'
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: c77069034996bf544b487a1249a5980c,
     type: 3}
