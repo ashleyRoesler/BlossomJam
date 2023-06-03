@@ -19,5 +19,6 @@ MonoBehaviour:
   - '"I-," Ermine said weakly, "I thought I was gone."'
   - '"Don''t worry! We won''t let Winter take you!" Squirrel assured. "Let''s go
     home!" Ermine nodded and the group headed back home.'
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: f78cf70233f952f4794b2afd1b216cc5,
     type: 3}
