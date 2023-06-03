@@ -19,5 +19,6 @@ MonoBehaviour:
   - But something was wrong, something was slightly off. Why was it still so cold?
     Why was there still snow? Had Winter taken it all? Was there no stopping his
     reach? Even the sunlight seemed cold.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 333cc673846694f4c84b0bb3f9deceac,
     type: 3}

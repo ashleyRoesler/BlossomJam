@@ -20,5 +20,6 @@ MonoBehaviour:
     much like Ermine''s. They lost all of their color and were nearly taken."'
   - "\"How did they defeat Winter?\" Ermine asked.\n\t\"Of that, I am not sure. But
     I know where they live, and I can take you to them.\""
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 29d75ff2af6dbd64b8b97364551c3c96,
     type: 3}

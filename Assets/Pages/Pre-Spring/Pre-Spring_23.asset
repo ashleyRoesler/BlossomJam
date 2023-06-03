@@ -24,5 +24,6 @@ MonoBehaviour:
     determination.'
   - "\"Do you know who it was?\" Squirrel asked.\n\t\"Er, no....\"\n\t\"Ah, but I
     do,\" a new voice said."
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: b47b3fbda24274d42b2fb88f23288f08,
     type: 3}
