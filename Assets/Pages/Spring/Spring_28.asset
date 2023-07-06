@@ -21,5 +21,6 @@ MonoBehaviour:
     step by step, she continued, holding on tight to her bright flower.
   - When the elements were about to overwhelm them, she stopped and set the flower
     down in front of her.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 0f5d6ed2da671ae4892069c4ce818911,
     type: 3}
