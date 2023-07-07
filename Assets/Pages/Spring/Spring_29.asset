@@ -18,5 +18,6 @@ MonoBehaviour:
   - The storm halted. That deep, horrible laugh echoed through the trees. Winter's
     eyes shone forth and his evil smile followed. Ermine sensed that something was
     wrong. Why was he not scared?
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 4ab19ccf19339504ca4f7f81e948a001,
     type: 3}
