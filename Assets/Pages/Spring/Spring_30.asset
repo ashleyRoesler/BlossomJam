@@ -21,5 +21,6 @@ MonoBehaviour:
   - '"HAH! HAHAHAHAHAHAHA!" The world was spinning. Ermine''s breath was short. Was
     it all over? What was there left to do? Her proof of spring was gone. She couldn''t
     breathe.'
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: c8f23338f1e7b904f9887e8c54de6140,
     type: 3}
