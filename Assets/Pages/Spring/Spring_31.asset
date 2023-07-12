@@ -19,5 +19,6 @@ MonoBehaviour:
   - Ermine's eyes widened as she looked down at her fur. Amidst the white were little
     patches of brown, her soft, warm brown! Proof that Winter was weakening. Proof
     that she was still alive.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 9b5e9e6dc5567e74092ff854a44f9a4a,
     type: 3}
