@@ -16,5 +16,6 @@ MonoBehaviour:
   TextSections:
   - She ran toward Winter, who shrieked in terror. He swirled and fought with all
     his might, but to no avail. He disappeared, defeated, into a burst of snow.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: f84cd942af1120a4abd1ae8b6c070f72,
     type: 3}
