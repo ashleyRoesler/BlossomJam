@@ -16,5 +16,6 @@ MonoBehaviour:
   TextSections:
   - The frigid wind rushed past Ermine one last time, and she heard a whisper, "I
     will come again." She smiled and whispered back, "And so will the spring."
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 4a9e2085f709a6f4db5c64257e2c64ad,
     type: 3}
