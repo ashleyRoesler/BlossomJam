@@ -17,5 +17,6 @@ MonoBehaviour:
   - The rule of Winter is that it will always end, and spring will always come again.
     So keep holding on.
   - THE END.
-  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 04db77b21be1df34b8967e95d414e692,
+  TextColor: {r: 0, g: 0, b: 0, a: 1}
+  EnvironmentPrefab: {fileID: 3160048863614207793, guid: 56c3d2d0df0383546ae85a015d2f999f,
     type: 3}
