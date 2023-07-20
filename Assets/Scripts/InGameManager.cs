@@ -9,7 +9,7 @@ public class InGameManager : MonoBehaviour {
     private int TextIndex = 0;
 
     public event System.Action<PageSO, int, int, bool, bool> PageChanged;
-    public event System.Action<string, bool, bool> TextChanged;
+    public event System.Action<PageSO, int, bool, bool> TextChanged;
 
     private GameObject _spawnedEnvironment = null;
 
@@ -47,7 +47,7 @@ public class InGameManager : MonoBehaviour {
         bool isFirstText = PageIndex == 0 && TextIndex == 0;
         bool isLastText = PageIndex == Pages.Count - 1 && TextIndex == Pages[Pages.Count - 1].TextSections.Count - 1;
 
-        TextChanged?.Invoke(Pages[PageIndex].TextSections[TextIndex], isFirstText, isLastText);
+        TextChanged?.Invoke(Pages[PageIndex], TextIndex, isFirstText, isLastText);
     }
 
     public void AdvanceText() {

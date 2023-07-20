@@ -1365,7 +1365,9 @@ MonoBehaviour:
   PageText: {fileID: 1270286785}
   PageNumber: {fileID: 1205459200}
   NextButton: {fileID: 832840101}
+  NextButtonText: {fileID: 1308600452}
   BackButton: {fileID: 1034877109}
+  BackButtonText: {fileID: 1066565535}
   EndButton: {fileID: 437116093}
   CurrentBorder: {fileID: 1160862675}
   FallBorder: {fileID: 21300000, guid: f6163265772559a48a39d9a5aac9a631, type: 3}
@@ -1387,7 +1389,7 @@ GameObject:
   - component: {fileID: 832840102}
   - component: {fileID: 832840101}
   m_Layer: 5
-  m_Name: Next Button
+  m_Name: Text Next Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
