@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
 
     static public Season SeasonToPlay = Season.Fall;
     static public int LastSeasonStarted = 0;
+    static public int LastPageUnlocked = -1;
 
     public void Awake() {
         DontDestroyOnLoad(gameObject);

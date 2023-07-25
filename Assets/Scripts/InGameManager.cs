@@ -19,6 +19,11 @@ public class InGameManager : MonoBehaviour {
 
     public void SetPage(int pageIndex, int textIndex) {
 
+        // set the previous page as unlocked
+        if (pageIndex - 1 > GameManager.LastPageUnlocked) {
+            GameManager.LastPageUnlocked = pageIndex - 1;
+        }
+
         // check if a new season has started
         if ((int)Pages[PageIndex].Season < (int)Pages[pageIndex].Season) {
             GameManager.LastSeasonStarted = (int)Pages[pageIndex].Season;
@@ -74,6 +79,10 @@ public class InGameManager : MonoBehaviour {
         else if (PageIndex > 0) {
             SetPage(PageIndex - 1, Pages[PageIndex - 1].TextSections.Count - 1);
         }
+    }
+
+    public void SkipToNextPage() {
+        SetPage(PageIndex + 1, 0);
     }
 
     public void EndGame() {

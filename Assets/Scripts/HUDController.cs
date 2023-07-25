@@ -17,6 +17,8 @@ public class HUDController : MonoBehaviour {
 
     public Button EndButton;
 
+    public Button SkipButton;
+
     [Space]
     public Image CurrentBorder;
     public Sprite FallBorder;
@@ -69,6 +71,7 @@ public class HUDController : MonoBehaviour {
 
         // configure navigation buttons
         SetNavButtons(page, textIndex, isFirstText, isLastText);
+        SkipButton.gameObject.SetActive(pageIndex <= GameManager.LastPageUnlocked);
 
         // set season border
         switch (page.Season) {
