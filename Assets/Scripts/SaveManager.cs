@@ -1,10 +1,12 @@
 using UnityEngine;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+
+// https://videlais.com/2021/02/25/using-jsonutility-in-unity-to-save-and-load-game-data/
+// https://discussions.unity.com/t/how-do-you-save-write-and-load-from-a-file/180577
 
 public class SaveManager : MonoBehaviour {
 
-    private const string _saveFilePath = "/save.dat";
+    private const string _saveFilePath = "/save.json";
 
     public static SaveManager Instance;
 
@@ -25,41 +27,29 @@ public class SaveManager : MonoBehaviour {
 
     public void Save() {
 
-        string destination = Application.persistentDataPath + _saveFilePath;
-        FileStream file;
-
-        // look for save file
-        if (File.Exists(destination)) {
-            file = File.OpenWrite(destination);
-        }
-
-        // create file if none found
-        else {
-            file = File.Create(destination);
-        }
-
         // create new save
         SaveData data = new(GameManager.Instance.LastPageUnlocked, GameManager.Instance.LastSeasonStarted);
+        string jsonString = JsonUtility.ToJson(data);
 
-        // save to file and close file
-        BinaryFormatter bf = new();
-        bf.Serialize(file, data);
-        file.Close();
+        // write to file
+        string destination = Application.persistentDataPath + _saveFilePath;
+        File.WriteAllText(destination, jsonString);
     }
 
     private void Load() {
 
         string destination = Application.persistentDataPath + _saveFilePath;
-        FileStream file;
 
         // look for save file
         if (File.Exists(destination)) {
-            file = File.OpenRead(destination);
 
-            BinaryFormatter bf = new();
-            SaveData data = (SaveData) bf.Deserialize(file);
-            file.Close();
+            // read in data
+            string fileContents = File.ReadAllText(destination);
 
+            // deserialize
+            SaveData data = JsonUtility.FromJson<SaveData>(fileContents);
+
+            // set values
             GameManager.Instance.LastPageUnlocked = data.LastPageUnlockedIndex;
             GameManager.Instance.LastSeasonStarted = data.LastSeasonStarted;
         }
