@@ -6,12 +6,11 @@ public class PauseMenuController : MonoBehaviour {
     public GameObject PauseScreen;
 
     public void Update() {
-        
         if (Input.GetKeyDown(PauseKey))
             PauseScreen.SetActive(!PauseScreen.activeInHierarchy);
     }
 
     public void GoToMainMenu() {
-        FindObjectOfType<GameManager>().GoToMainMenu();
+        GameManager.Instance.GoToMainMenu();
     }
 }

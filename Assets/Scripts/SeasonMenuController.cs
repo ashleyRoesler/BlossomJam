@@ -10,10 +10,10 @@ public class SeasonMenuController : MonoBehaviour {
     public Button SpringButton;
 
     private void Awake() {
-        FallButton.interactable = GameManager.LastSeasonStarted >= 0;
-        PreWinterButton.interactable = GameManager.LastSeasonStarted >= 1;
-        WinterButton.interactable = GameManager.LastSeasonStarted >= 2;
-        PreSpringButton.interactable = GameManager.LastSeasonStarted >= 3;
-        SpringButton.interactable = GameManager.LastSeasonStarted == 4;
+        FallButton.interactable = GameManager.Instance.LastSeasonStarted >= 0;
+        PreWinterButton.interactable = GameManager.Instance.LastSeasonStarted >= 1;
+        WinterButton.interactable = GameManager.Instance.LastSeasonStarted >= 2;
+        PreSpringButton.interactable = GameManager.Instance.LastSeasonStarted >= 3;
+        SpringButton.interactable = GameManager.Instance.LastSeasonStarted == 4;
     }
 }

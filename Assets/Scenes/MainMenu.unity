@@ -793,19 +793,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 213037909}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1506377583}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: QuitGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &213037909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2353,6 +2341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 674112178}
+  - component: {fileID: 674112179}
   m_Layer: 5
   m_Name: Main Menu Page
   m_TagString: Untagged
@@ -2382,6 +2371,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &674112179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674112177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb8c1eaed709a540920eb39ae562a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayButton: {fileID: 932807741}
+  QuitButton: {fileID: 213037908}
 --- !u!1 &725557708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3549,19 +3552,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 932807742}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1506377583}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &932807742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4611,6 +4602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506377582}
   - component: {fileID: 1506377583}
+  - component: {fileID: 1506377584}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -4654,6 +4646,18 @@ MonoBehaviour:
   HowToPlay: {fileID: 483407142}
   ContinueButton: {fileID: 1855734832}
   LoadTime: 2
+--- !u!114 &1506377584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506377581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005e938855c634b40bd6618511637446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1574504889
 GameObject:
   m_ObjectHideFlags: 0

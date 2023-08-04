@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine.UI;
 
+// https://discussions.unity.com/t/how-to-not-duplicate-game-objects-on-dontdestroyonload/140566
+
 public class GameManager : MonoBehaviour {
     public string MainMenuSceneName;
     public string GameSceneName;
@@ -17,13 +19,29 @@ public class GameManager : MonoBehaviour {
     [Space]
     public float LoadTime = 1f;
 
-    static public Season SeasonToPlay = Season.Fall;
-    static public int LastSeasonStarted = 0;
-    static public int LastPageUnlocked = -1;
+    [HideInInspector]
+    public Season SeasonToPlay = Season.Fall;
+
+    [HideInInspector]
+    public int LastSeasonStarted = 0;
+
+    [HideInInspector]
+    public int LastPageUnlocked = -1;
+
+    public static GameManager Instance;
 
     public void Awake() {
         DontDestroyOnLoad(gameObject);
 
+        if (!Instance) {
+            Instance = this;
+        }
+        else {
+            Destroy(gameObject);
+        }
+    }
+
+    private void Start() {
         ContinueButton.onClick.AddListener(() => {
             HowToPlay.SetActive(false);
             StartCoroutine(LoadOut_Coroutine(GameSceneName));

@@ -14,19 +14,25 @@ public class InGameManager : MonoBehaviour {
     private GameObject _spawnedEnvironment = null;
 
     private void OnEnable() {
-        SetPage(Pages.FindIndex(p => p.Season == GameManager.SeasonToPlay), 0);
+        SetPage(Pages.FindIndex(p => p.Season == GameManager.Instance.SeasonToPlay), 0);
     }
 
     public void SetPage(int pageIndex, int textIndex) {
 
+        bool needToSave = false;
+
         // set the previous page as unlocked
-        if (pageIndex - 1 > GameManager.LastPageUnlocked) {
-            GameManager.LastPageUnlocked = pageIndex - 1;
+        if (pageIndex - 1 > GameManager.Instance.LastPageUnlocked) {
+            GameManager.Instance.LastPageUnlocked = pageIndex - 1;
+
+            needToSave = true;
         }
 
         // check if a new season has started
         if ((int)Pages[PageIndex].Season < (int)Pages[pageIndex].Season) {
-            GameManager.LastSeasonStarted = (int)Pages[pageIndex].Season;
+            GameManager.Instance.LastSeasonStarted = (int)Pages[pageIndex].Season;
+
+            needToSave = true;
         }
 
         // change text
@@ -44,6 +50,10 @@ public class InGameManager : MonoBehaviour {
         _spawnedEnvironment = Instantiate(Pages[PageIndex].EnvironmentPrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
 
         PageChanged?.Invoke(Pages[PageIndex], pageIndex, textIndex, isFirstText, isLastText);
+
+        if (needToSave) {
+            SaveManager.Instance.Save();
+        }
     }
 
     public void SetText(int textIndex) {
@@ -86,6 +96,6 @@ public class InGameManager : MonoBehaviour {
     }
 
     public void EndGame() {
-        FindObjectOfType<GameManager>().EndGame();
+        GameManager.Instance.EndGame();
     }
 }
